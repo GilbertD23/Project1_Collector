@@ -1,0 +1,613 @@
+Unity Editor version:    6000.6.3f1 (45d8eee7de74)
+Branch:                  6000.6/staging
+Build type:              Release
+Batch mode:              NO
+macOS version:           Version 15.8.1 (Build 24H32)
+Darwin version:          24.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Date:                    2026-10-09T22:02:15Z
+[WARNING] The Intel macOS Editor is deprecated; it will no longer be available after Unity 6.7 LTS.
+
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 1197)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 1199)
+VBCSCompiler prewarm took 34.60 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-gilbertcervantes" at "2026-10-09T22:02:15.918564Z"
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/MacOS/Unity
+-projectpath
+/Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-gilbertcervantes
+-hubSessionId
+42b3c9fb-e7be-4e33-8629-523830ad4817
+-accessToken
+GfZEu061igDy7jPD5-0Nqe4VESpaf_QqAIhhHoAZAW8012f
+Successfully changed project path to: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame
+/Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [140704500535744]  Target information:
+
+Player connection [140704500535744]  * "[IP] 192.168.1.103 [Port] 55504 [Flags] 2 [Guid] 861082682 [EditorId] 861082682 [Version] 1048832 [Id] OSXEditor(0,MacBookPro.lan) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [140704500535744] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704500535744] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              6e5c2cea62664d378b5d7d306a549f42
+  Correlation Id:          588af22378edcd2514b9dbabc3563ea6
+  External correlation Id: 5736002691612435711
+  Machine Id:              0qMBZoWFnnbp6MupnO96VcMRDv8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-gilbertcervantes" (connect: 0.00s, validation: 0.01s, handshake: 1.49s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-gilbertcervantes-notifications" at "2026-10-09T22:02:17.414224Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token GfZEu061ig...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 20066363781542-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.03
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 1.57s
+[Package Manager] Connected to IPC stream "Upm-1196" after 0.5 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 22dea09bd32586b5fd43de95fbd904f5
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052672
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - /Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Helpers/Unity.DataStore 
+Unity Data Store artifact dir = Library/DataStore, working dir = /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGameUnity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.3f1 (45d8eee7de74)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Using device Intel(R) Iris(TM) Plus Graphics 645 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 645
+Mac GPU Family: 2
+Apple GPU Family: 0
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = '/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.6.3f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.6.3f1/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.004218 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.607 seconds
+Domain Reload Profiling: 4010ms
+	BeginReloadAssembly (453ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (13ms)
+	RebuildNativeTypeToScriptingClass (52ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (745ms)
+		LoadAssemblies (443ms)
+		TypeCache.Refresh (557ms)
+			TypeCache.ScanAssembly (522ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (2609ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (197ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (1655ms)
+			EditorAssembliesLoaded (3ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 63 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.collab-proxy@2.13.6 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.visualscripting@4edfcc09512f)
+    com.unity.2d.animation@16.0.1 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.2d.animation@899988b542b9)
+    com.unity.2d.pixel-perfect@6.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.2d.pixel-perfect@a860cb24a0cc)
+    com.unity.2d.psdimporter@15.0.1 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.2d.psdimporter@e02a9153d8d9)
+    com.unity.2d.spriteshape@16.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.2d.spriteshape@42798c9d35d3)
+    com.unity.2d.tilemap.extras@9.0.1 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.2d.tilemap.extras@9446f3c60919)
+    com.unity.2d.aseprite@6.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.2d.aseprite@ab909e3e9b5f)
+    com.unity.2d.tooling@4.0.1 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.2d.tooling@4e93af4036ee)
+    com.unity.2d.common@15.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.2d.common@b779c433ed47)
+    com.unity.nuget.mono-cecil@1.11.6 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.feature.2d@2.0.2 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.feature.2d@11724ae7e5b5)
+    com.unity.test-framework@1.8.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.test-framework@80f691d4262b)
+    com.unity.timeline@6.6.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.timeline@c56d56b0070b)
+    com.unity.ugui@2.6.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.ugui@0727b404f3a0)
+    com.unity.modules.accessibility@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.ext.nunit@0198eae3b53e)
+    com.unity.2d.sprite@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.2d.sprite@26bcb5e737a2)
+    com.unity.2d.tilemap@1.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.2d.tilemap@4a51245c030d)
+    com.unity.mathematics@1.4.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.mathematics@8306a64d0cd6)
+    com.unity.collections@6.6.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.collections@10fff0607388)
+    com.unity.burst@2.0.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.burst@626e66ab421b)
+    com.unity.test-framework.performance@6.6.0 (location: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Library/PackageCache/com.unity.test-framework.performance@b6023decb532)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+Starting: /Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll" in favor of "/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+ExitCode: 0 Duration: 0s712ms
+[642/838    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.66 seconds), 1 items updated, 838 evaluated
+AssetDatabase: script compilation time: 2.113829s
+Total cache size 92282000
+Total cache size after purge 92282000, took 00:00:00.2352261
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 7.15 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.31 ms, found 3 plugins.
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.595 seconds
+Domain Reload Profiling: 4484ms
+	BeginReloadAssembly (480ms)
+		DisableScriptedObjects (36ms)
+		CreateAndSetChildDomain (137ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (1274ms)
+		LoadAssemblies (698ms)
+		TypeCache.Refresh (360ms)
+			TypeCache.ScanAssembly (336ms)
+		AnalyzeDomain (171ms)
+			BuildScriptInfoCaches (157ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2597ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (433ms)
+			ProcessInitializeOnLoadAttributes (1352ms)
+			ProcessInitializeOnLoadMethodAttributes (205ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (5ms)
+		AwakeInstancesAfterBackupRestoration (64ms)
+Starting new worker id: 0 with log in /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=8f3fb445d659746afb9ea3113e729735): Total: 9.404 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=5116 ms
+		Asset DB Callback time: managed=90 ms, native=32 ms
+		Scripting: domain reloads=1, domain reload time=1958 ms, compile time=2119 ms, other=87 ms
+		Project Asset Count: scripts=1122, non-scripts=1828
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.406ms
+	InvokePackagesCallback: 33.114ms
+	ApplyChangesToAssetFolders: 1.130ms
+	Scan: 1763.793ms
+	Collect global state as custom dependencies: 25.667ms
+	CategorizeScriptCompilationAssets: 136.701ms
+	ProcessAssetsWithTransientArtifactChanges: 111.445ms
+	CategorizeAssets: 60.603ms
+	CompileScripts: 2119.064ms
+	ImportOutOfDateAssets: 2629.270ms (2616.791ms without children)
+		UnloadImportedAssets: 4.454ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.156ms
+		ImportSchedulerStart: 6.867ms
+	PostProcessAllAssets: 90.561ms
+		MonoPostProcessAllAssets: 90.140ms
+			SyncVS.PostprocessSyncProject 33.376ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 24.253ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.082ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.821ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.880ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.759ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.580ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.449ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.386ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.204ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.176ms
+	UnloadStreamsBegin: 4.638ms
+	PersistCurrentRevisions: 0.167ms
+	GenerateScriptTypeHashes: 5.682ms
+	GenerateScriptTypeSerializationHashes: 12.270ms
+	Untracked: 2422.590ms
+
+Application.AssetDatabase Initial Refresh End
+Launching external process: /Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.19 seconds
+Scanning for USB devices : 1.289ms
+Initializing Unity extensions:
+The Intel macOS Editor is deprecated; it will no longer be available after Unity 6.7 LTS.
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-CollectorGame
+2026-10-09 15:02:34.606 Unity[1196:38288] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fe3b94cbc40 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            6.340 ms
+	Integration:            30.344 ms
+	Integration of assets:  2.743 ms
+	Thread Wait Time:       -2.723 ms
+	Total Operation Time:   36.704 ms
+Unloading 5221 unused Assets / (1.2 MB). Loaded Objects now: 5953.
+Memory consumption went from 199.3 MB to 198.1 MB.
+Total: 21.804174 ms (FindLiveObjects: 1.094843 ms CreateObjectMapping: 0.824288 ms MarkObjects: 17.245321 ms  DeleteObjects: 2.310789 ms)
+
+[LAYOUT] About to load UserSettings/Layouts/default-6000.dwlt, keepMainWindow=False
+2026-10-09 15:02:34.921 Unity[1196:38288] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-10-09 15:02:34.924 Unity[1196:38288] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-10-09 15:02:34.926 Unity[1196:38288] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-10-09 15:02:34.926 Unity[1196:38288] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-10-09 15:02:34.927 Unity[1196:38288] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-10-09 15:02:34.927 Unity[1196:38288] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-10-09 15:02:36.981 Unity[1196:38288] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-10-09 15:02:36.982 Unity[1196:38288] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-10-09 15:02:36.983 Unity[1196:38288] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-10-09 15:02:36.984 Unity[1196:38288] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-10-09 15:02:36.984 Unity[1196:38288] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-10-09 15:02:36.985 Unity[1196:38288] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+[LAYOUT] About to save layout /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/UserSettings/Layouts/default-6000.dwlt
+[LAYOUT] About to save layout /Users/gilbertcervantes/Library/Preferences/Unity/Editor-5.x/Layouts/current/default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+[Project] Loading completed in 21.371 seconds
+	Project init time: 				17.906 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.466 seconds
+		Asset Database init time: 		0.979 seconds
+		Global illumination init time: 	0.005 seconds
+		Assemblies load time: 			4.125 seconds
+		Unity extensions init time: 	0.071 seconds
+		Asset Database refresh time: 	9.414 seconds
+	Scene opening time: 			2.787 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1791583357212,"processId":1196,"projectLoad":21.371353004000003,"projectInit":17.906498601,"templateInit":0.0,"packageManagerInit":0.466059167,"assetDatabaseInit":0.978565593,"globalIlluminationInit":0.005003639,"assembliesLoad":4.124563105,"unityExtensionsInit":0.071184556,"assetDatabaseRefresh":9.413563274,"sceneOpening":2.786700803}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1791583357213,"processId":1196,"editorVersion":"6000.6.3f1 (45d8eee7de74)","branch":"6000.6/staging","buildType":"Release","platform":"OSX"}
+Subscribe to USB device events
+Scanning for USB devices : 1.298ms
+Worker ready: AssetImportWorkerHW0 0
+Created GICache directory at /Users/gilbertcervantes/Library/Caches/com.unity3d.UnityEditor/GiCache. Took: 0.021s, timestamps: [21.459 - 21.480]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "GfZEu061"... (expires: 2026-10-09T23:25:11Z)
+[Licensing::Client] Successfully resolved entitlement details
+
+Asset Pipeline Refresh (id=16e39280563754e829b6eeaeab73c7f9): Total: 0.593 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=591 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1122, non-scripts=1828
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.052ms
+	InvokePackagesCallback: 1.155ms
+	ApplyChangesToAssetFolders: 0.413ms
+	Scan: 557.719ms
+	Collect global state as custom dependencies: 1.705ms
+	ProcessAssetsWithTransientArtifactChanges: 0.101ms
+	CategorizeAssets: 5.043ms
+	ImportOutOfDateAssets: 2.376ms (0.324ms without children)
+		UnloadImportedAssets: 0.277ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.930ms
+		ImportSchedulerStart: 0.829ms
+	GatherAllCurrentPrimaryImportResultRevisions: 2.632ms
+	UnloadStreamsBegin: 6.035ms
+	PersistCurrentRevisions: 0.188ms
+	Untracked: 10.911ms
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+UPID Received '4b00e90f-0fc9-4849-a362-fbef46ced1c5'.
+[Licensing::Client] Successfully resolved entitlement details
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=c265ed3b3173f4c168ab1f44f2e8aac6): Total: 0.136 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+
+Asset Pipeline Refresh (id=11e5aecbc433540d0b61bf0827f95ca8): Total: 0.367 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=355 ms
+		Asset DB Callback time: managed=0 ms, native=10 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1122, non-scripts=1828
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.092ms
+	InvokePackagesCallback: 10.422ms
+	ApplyChangesToAssetFolders: 1.382ms
+	Scan: 322.432ms
+	Collect global state as custom dependencies: 0.343ms
+	GatherAllCurrentPrimaryImportResultRevisions: 6.889ms
+	UnloadStreamsBegin: 22.862ms
+	UnloadStreamsEnd: 0.127ms
+	Untracked: 2.087ms
+
+Starting new worker id: 1 with log in /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 2cda990e2423bbf4892e6590ba056729 - Path: Assets/Scenes/SampleScene.unity - Importer: PreviewImporter -> (ImportResultId: 'ca4aa24ae1a503ec4cf288dcbf51a825') in 0.061903477 seconds
+Opening scene 'Assets/Scenes/SampleScene.unity'
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            1.067 ms
+	Integration:            56.058 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.057 ms
+	Total Operation Time:   57.184 ms
+Unloading 79 unused Assets / (31.1 MB). Loaded Objects now: 7042.
+Memory consumption went from 329.0 MB to 297.8 MB.
+Total: 81.463007 ms (FindLiveObjects: 0.957685 ms CreateObjectMapping: 0.562105 ms MarkObjects: 72.030449 ms  DeleteObjects: 7.707234 ms)
+
+Worker ready: AssetImportWorkerHW1 1
+Asset Pipeline Refresh (id=c6bcce82ad1b14b748cf0b0e97e9d85b): Total: 0.158 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Opening scene 'Assets/Scenes/SampleScene.unity'
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            0.813 ms
+	Integration:            18.668 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   19.496 ms
+Unloading 1 unused Assets / (5.2 MB). Loaded Objects now: 7071.
+Memory consumption went from 300.6 MB to 295.4 MB.
+Total: 22.030602 ms (FindLiveObjects: 0.547286 ms CreateObjectMapping: 0.280658 ms MarkObjects: 20.971904 ms  DeleteObjects: 0.058036 ms)
+
+Opening scene 'Assets/Scenes/SampleScene.unity'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            0.946 ms
+	Integration:            19.559 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.009 ms
+	Total Operation Time:   20.516 ms
+Unloading 0 unused Assets / (49.6 KB). Loaded Objects now: 7071.
+Memory consumption went from 288.9 MB to 288.9 MB.
+Total: 31.240624 ms (FindLiveObjects: 0.601122 ms CreateObjectMapping: 0.205000 ms MarkObjects: 30.200726 ms  DeleteObjects: 0.051416 ms)
+
+[Worker0] Imported GUID: 85cc0a9886155432db059e7759a9bac3 - Path: Assets/Scenes - Importer: PreviewImporter -> (ImportResultId: 'bf795fe7b898e004400039b651faedb1') in 0.010553014 seconds
+Opening scene 'Assets/Scenes/SampleScene.unity'
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            0.829 ms
+	Integration:            15.986 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   16.829 ms
+Unloading 2 unused Assets / (5.1 MB). Loaded Objects now: 7066.
+Memory consumption went from 291.9 MB to 286.8 MB.
+Total: 22.779485 ms (FindLiveObjects: 0.470450 ms CreateObjectMapping: 0.210119 ms MarkObjects: 21.878167 ms  DeleteObjects: 0.057469 ms)
+
+Asset Pipeline Refresh (id=ed3e3dbe462af41bea8210bd9ff3f0f8): Total: 0.177 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+2026-10-09 15:14:47.151 Unity[1196:38288] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fe3a0e90760 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Opening scene 'Assets/Scenes/SampleScene.unity'
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            1.207 ms
+	Integration:            31.214 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.021 ms
+	Total Operation Time:   32.446 ms
+Unloading 3 unused Assets / (26.3 KB). Loaded Objects now: 7073.
+Memory consumption went from 275.2 MB to 275.2 MB.
+Total: 48.740750 ms (FindLiveObjects: 0.520548 ms CreateObjectMapping: 0.200812 ms MarkObjects: 47.737888 ms  DeleteObjects: 0.081938 ms)
+
+Opening scene 'Assets/Scenes/SampleScene.unity'
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            0.451 ms
+	Integration:            17.584 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.013 ms
+	Total Operation Time:   18.052 ms
+Unloading 0 unused Assets / (5.2 KB). Loaded Objects now: 7073.
+Memory consumption went from 275.0 MB to 275.0 MB.
+Total: 21.558537 ms (FindLiveObjects: 0.531638 ms CreateObjectMapping: 0.292991 ms MarkObjects: 20.505499 ms  DeleteObjects: 0.041846 ms)
+
+Opening scene 'Assets/Scenes/SampleScene.unity'
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            0.362 ms
+	Integration:            15.549 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   15.923 ms
+Unloading 0 unused Assets / (9.1 KB). Loaded Objects now: 7073.
+Memory consumption went from 273.1 MB to 273.1 MB.
+Total: 21.599626 ms (FindLiveObjects: 0.506100 ms CreateObjectMapping: 0.190153 ms MarkObjects: 20.683621 ms  DeleteObjects: 0.040971 ms)
+
+2026-10-09 15:15:43.790 Unity[1196:38288] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fe3a0c95650 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Opening scene 'Assets/Scenes/SampleScene.unity'
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            0.521 ms
+	Integration:            19.243 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.048 ms
+	Total Operation Time:   19.814 ms
+Unloading 0 unused Assets / (10.7 KB). Loaded Objects now: 7073.
+Memory consumption went from 273.1 MB to 273.1 MB.
+Total: 22.504513 ms (FindLiveObjects: 0.620747 ms CreateObjectMapping: 0.249293 ms MarkObjects: 21.353786 ms  DeleteObjects: 0.038230 ms)
+
+Asset Pipeline Refresh (id=e954e13cb96374c09beea0102b190397): Total: 0.201 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=ef5effb546b30458aaf3df1780d9a83d): Total: 0.135 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+
+Asset Pipeline Refresh (id=00df8613ed1d54db79291dc88e729aaf): Total: 0.359 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=349 ms
+		Asset DB Callback time: managed=0 ms, native=7 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1122, non-scripts=1828
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.554ms
+	InvokePackagesCallback: 6.101ms
+	ApplyChangesToAssetFolders: 1.040ms
+	Scan: 333.209ms
+	Collect global state as custom dependencies: 4.630ms
+	GatherAllCurrentPrimaryImportResultRevisions: 3.162ms
+	UnloadStreamsBegin: 0.370ms
+	UnloadStreamsEnd: 0.242ms
+	Untracked: 9.458ms
+
+2026-10-09 15:48:42.793 Unity[1196:38288] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7fe3a0ee8d20 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2026-10-09 15:48:49.451 Unity[1196:38288] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-10-09 15:48:49.465 Unity[1196:38288] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+Opening scene 'Assets/Scenes/SampleScene.unity'
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            14.980 ms
+	Integration:            66.865 ms
+	Integration of assets:  0.324 ms
+	Thread Wait Time:       -0.288 ms
+	Total Operation Time:   81.881 ms
+Unloading 1 unused Assets / (0.6 KB). Loaded Objects now: 7073.
+Memory consumption went from 273.2 MB to 273.2 MB.
+Total: 113.960160 ms (FindLiveObjects: 1.505807 ms CreateObjectMapping: 0.318886 ms MarkObjects: 111.239181 ms  DeleteObjects: 0.151442 ms)
+
+MonoPathRemapper: Attempts to remap: 31218; Successful remaps: 16242
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame/UserSettings/Layouts/default-6000.dwlt
+[LAYOUT] About to save layout /Users/gilbertcervantes/Library/Preferences/Unity/Editor-5.x/Layouts/current/default-6000.dwlt
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-gilbertcervantes-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-gilbertcervantes channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 97
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1791586272542,"processId":1196,"allocatedMemory":11232176,"memoryLabels":[{"Default":198278},{"Permanent":15416},{"Thread":1052744},{"Manager":25046},{"VertexData":8},{"Geometry":408},{"Shader":856253},{"Material":68},{"TextureCache":760},{"GfxDevice":42088},{"GfxThread":2240},{"Animation":968},{"FreeType":8},{"FontEngine":736},{"Physics":1874},{"Physics2D":16},{"Serialization":19200},{"Input":42448},{"JobScheduler":256},{"TextLib":21669},{"Mono":56},{"ScriptingNativeRuntime":155024},{"BaseObject":48776},{"Resource":1028},{"Renderer":2384},{"Transform":4693},{"File":9970},{"WebCam":32},{"Culling":32},{"Terrain":11346},{"Wind":24},{"String":587082},{"StaticString":3808},{"Utility":2672832},{"PoolAlloc":2008},{"AI":80},{"TypeTree":17037},{"ScriptManager":12656},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7240},{"Director":8160},{"CloudService":7664},{"WebRequest":4682},{"VR":49426},{"SceneManager":616},{"Video":1088},{"LazyScriptCache":32},{"NativeArray":936},{"Camera":6073},{"Secure":10105},{"SerializationCache":8936},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57504},{"StaticSafetyDebugInfo":278528},{"Baselib":16},{"Analytics":568},{"Hierarchy":1492},{"UIElements":40},{"CoreStats":14472},{"Identifiers":7152},{"Gui":280497},{"EditorUtility":81758},{"VersionControl":8},{"Undo":939},{"AssetDatabase":4525143},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36970},{"Upm":1804},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"HubClient":848},{"LocalIPC":215},{"ProfilerEditor":9738},{"CoreBusinessMetrics":2629},{"Windowing":416},{"Licensing":800},{"AssetReference":32},{"IPCStream":6619}]}
