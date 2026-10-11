@@ -7136,3 +7136,391 @@ PlayerMovement:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/PlayerMoveme
 2026-10-11 02:31:53.624 Unity[794:8174] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
 Asset Pipeline Refresh (id=3f555ddb4c7d74aac9b888e3a36341f2): Total: 0.247 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
 2026-10-11 02:32:06.984 Unity[794:8174] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f834fff70a0 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+
+Asset Pipeline Refresh (id=c861053c05874440eb36343414989004): Total: 0.377 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=376 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1141, non-scripts=1969
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokeCustomDependenciesCallbacks: 0.111ms
+	ApplyChangesToAssetFolders: 1.573ms
+	Scan: 361.548ms
+	Collect global state as custom dependencies: 0.422ms
+	GatherAllCurrentPrimaryImportResultRevisions: 8.842ms
+	UnloadStreamsBegin: 0.794ms
+	UnloadStreamsEnd: 0.157ms
+	Untracked: 3.943ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Worker0] Imported GUID: 4ebc3641435d04ee4ad1162aa7904a62 - Path: Assets/TurretPool.cs - Importer: PreviewImporter -> (ImportResultId: '479e8cdabf7a4f8013bcc87e72d69d2c') in 0.055137168 seconds
+
+Asset Pipeline Refresh (id=dc7ce8e93571b44d785c3c0ba8b1bd0a): Total: 0.360 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=360 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1141, non-scripts=1969
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	ApplyChangesToAssetFolders: 0.429ms
+	Scan: 356.593ms
+	Collect global state as custom dependencies: 0.440ms
+	GatherAllCurrentPrimaryImportResultRevisions: 1.104ms
+	UnloadStreamsBegin: 0.189ms
+	UnloadStreamsEnd: 0.277ms
+	Untracked: 1.048ms
+
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Refreshing native plugins compatible for Editor in 6.17 ms, found 3 plugins.
+
+Asset Pipeline Refresh (id=8b4e9689e2e8b490f93448870e745bf3): Total: 0.491 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=229 ms
+		Asset DB Callback time: managed=228 ms, native=28 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=3 ms, other=0 ms
+		Project Asset Count: scripts=1141, non-scripts=1969
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 1
+	ApplyChangesToAssetFolders: 0.466ms
+	Scan: 175.899ms
+	Collect global state as custom dependencies: 0.355ms
+	OnSourceAssetsModified: 5.762ms
+	CategorizeScriptCompilationAssets: 0.073ms
+	ProcessAssetsWithTransientArtifactChanges: 12.778ms
+	CategorizeAssets: 6.354ms
+	CompileScripts: 3.325ms
+	ImportOutOfDateAssets: 3.637ms (0.238ms without children)
+		UnloadImportedAssets: 0.171ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.708ms
+		ImportSchedulerStart: 2.490ms
+	PostProcessAllAssets: 230.574ms
+		PostProcessCallbackCreateDeferredMaterials 1.279ms
+		XRBuildSystem.XRAssetImported 0.680ms
+		ObjectImages.AssetImported 0.165ms
+		MonoPostProcessAllAssets: 224.059ms
+			AssetProcessor.OnPostprocessAllAssets 91.076ms
+			AssetChangedListener.OnPostprocessAllAssets 25.006ms
+			AssetPostprocessor.OnPostprocessAllAssets 21.474ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 8.249ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 6.941ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 6.437ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 5.680ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 5.325ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 5.194ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.038ms
+			AssetReloadNotifier.OnPostprocessAllAssets 3.573ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 3.195ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 2.570ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 2.429ms
+			SyncVS.PostprocessSyncProject 2.283ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 2.119ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.907ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 1.875ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 1.741ms
+			AssetEvents.OnPostprocessAllAssets 1.219ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 1.138ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 1.099ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 1.058ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.903ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.715ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 0.652ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.562ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.495ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.350ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.127ms
+	PostAssetChangesProfiler: 20.777ms
+	GatherAllCurrentPrimaryImportResultRevisions: 4.488ms
+	UnloadStreamsBegin: 0.143ms
+	PersistCurrentRevisions: 0.140ms
+	Untracked: 25.645ms
+
+Starting: /Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Users/gilbertcervantes/Documents/GitHub/Project1_Collector/CollectorGame
+[Worker0] Imported GUID: 4ebc3641435d04ee4ad1162aa7904a62 - Path: Assets/TurretPool.cs - Importer: PreviewImporter -> (ImportResultId: 'e664eaf9a4911061ccdaa26c44f634ca') in 0.00517975 seconds
+[Worker0] Imported GUID: d2e0fee923d5f4cc7a417fe83d1f8518 - Path: Assets/Turret.prefab - Importer: PreviewImporter -> (ImportResultId: '9d33afc21189363b27d3507e8c20efd9') in 0.443357994 seconds
+ExitCode: 0 Duration: 1s614ms
+[641/838    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[834/838    0s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets/PlayerMovement.cs(40,41): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+[835/838    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 143 defines and 346 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+[836/838    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[837/838    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+*** Tundra build success (1.54 seconds), 5 items updated, 838 evaluated
+Assets/PlayerMovement.cs(40,41): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Reloading assemblies after finishing script compilation.
+Reloading assemblies after forced synchronous recompile.
+Total cache size 92282000
+Total cache size after purge 92282000, took 00:00:00.2676321
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+2026-10-11 02:38:46.367 Unity[794:8174] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f833f8a5d50 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  4.914 seconds
+Domain Reload Profiling: 8151ms
+	BeginReloadAssembly (1797ms)
+		DisableScriptedObjects (333ms)
+		CreateAndSetChildDomain (716ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (49ms)
+	initialDomainReloadingComplete (207ms)
+	LoadAllAssembliesAndSetupDomain (1153ms)
+		LoadAssemblies (463ms)
+		TypeCache.Refresh (32ms)
+		AnalyzeDomain (474ms)
+			BuildScriptInfoCaches (445ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (4916ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (6ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			BeforeProcessingInitializeOnLoad (397ms)
+			ProcessInitializeOnLoadAttributes (745ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (1325ms)
+Importing 'GUID: d2e0fee923d5f4cc7a417fe83d1f8518 - Path: Assets/Turret.prefab' with importer (PrefabImporter)
+Imported 'GUID: d2e0fee923d5f4cc7a417fe83d1f8518' -> (Import Result ID: '04079ddc459c114cb21e3c62222e26cc') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3bc2540e665b006541020aceeb59eb45 DependenciesID=0a23d57fdb6324a0b2407747904ee2c1 StaticDependenciesID=b58b44b13f7aa0cae40ae1f6c8993bf4 
+
+Asset Pipeline Refresh (id=76d7a2be1aaa84808ad0c08aa505d507): Total: 8.785 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=8 ms, native=5212 ms
+		Asset DB Callback time: managed=84 ms, native=6 ms
+		Scripting: domain reloads=1, domain reload time=3468 ms, compile time=5 ms, other=0 ms
+		Project Asset Count: scripts=1141, non-scripts=1969
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 3.487ms
+	ApplyChangesToAssetFolders: 0.994ms
+	Collect global state as custom dependencies: 1.013ms
+	ProcessAssetsWithTransientArtifactChanges: 6.615ms
+	CategorizeAssets: 57.873ms
+	CompileScripts: 5.011ms
+	ImportOutOfDateAssets: 4970.170ms (4924.439ms without children)
+		ImportManagerImport: 41.775ms (2.941ms without children)
+		CollectScriptTypesHashes: 0.076ms
+		ReloadNativeAssets: 0.467ms
+		UnloadImportedAssets: 1.166ms
+		ReloadImportedAssets: 5.018ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.125ms
+		ImportSchedulerStart: 1.097ms
+	PostProcessAllAssets: 85.878ms
+		XRBuildSystem.XRAssetImported 0.436ms
+		MonoPostProcessAllAssets: 84.356ms
+			SyncVS.PostprocessSyncProject 14.933ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 10.776ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 9.343ms
+			AssetPostprocessor.OnPostprocessAllAssets 8.945ms
+			AssetChangedListener.OnPostprocessAllAssets 2.816ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.288ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.717ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.408ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 0.819ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.787ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.728ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.723ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.581ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.553ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.533ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.458ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.442ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.412ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.394ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.394ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.389ms
+			AssetEvents.OnPostprocessAllAssets 0.348ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.331ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.323ms
+			AssetProcessor.OnPostprocessAllAssets 0.293ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.273ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.251ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.218ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.218ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.204ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.198ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.194ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.171ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.168ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.140ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.122ms
+	PostAssetChangesProfiler: 2.835ms
+	GatherAllCurrentPrimaryImportResultRevisions: 1.896ms
+	PersistCurrentRevisions: 0.263ms
+	GenerateScriptTypeHashes: 3.235ms
+	GenerateScriptTypeSerializationHashes: 6.703ms
+	Untracked: 3645.737ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Worker1] Imported GUID: d2e0fee923d5f4cc7a417fe83d1f8518 - Path: Assets/Turret.prefab - Importer: PreviewImporter -> (ImportResultId: 'a166d0a8dcd34d20797373838667e2f0') in 0.271761626 seconds
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            9.666 ms
+	Integration:            44.379 ms
+	Integration of assets:  0.018 ms
+	Thread Wait Time:       0.030 ms
+	Total Operation Time:   54.092 ms
+Unloading 43 unused Assets / (377.2 KB). Loaded Objects now: 7791.
+Memory consumption went from 354.3 MB to 354.0 MB.
+Total: 51.960954 ms (FindLiveObjects: 0.673691 ms CreateObjectMapping: 0.363363 ms MarkObjects: 50.267357 ms  DeleteObjects: 0.452109 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+SpriteAtlasPacking completed in 0.012636 sec
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 5.51 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  3.422 seconds
+Domain Reload Profiling: 4900ms
+	BeginReloadAssembly (952ms)
+		DisableScriptedObjects (157ms)
+		CreateAndSetChildDomain (456ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (395ms)
+		LoadAssemblies (328ms)
+		TypeCache.Refresh (12ms)
+		AnalyzeDomain (10ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (3423ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			BeforeProcessingInitializeOnLoad (234ms)
+			ProcessInitializeOnLoadAttributes (695ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+		AwakeInstancesAfterBackupRestoration (1428ms)
+
+Asset Pipeline Refresh (id=1bd123dc9448c45a48166573f0f8fb0f): Total: 5.284 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3557 ms
+		Asset DB Callback time: managed=59 ms, native=1 ms
+		Scripting: domain reloads=1, domain reload time=1661 ms, compile time=4 ms, other=0 ms
+		Project Asset Count: scripts=1141, non-scripts=1969
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.351ms
+	ApplyChangesToAssetFolders: 0.417ms
+	Collect global state as custom dependencies: 3.331ms
+	ProcessAssetsWithTransientArtifactChanges: 0.145ms
+	CategorizeAssets: 31.620ms
+	CompileScripts: 4.290ms
+	ImportOutOfDateAssets: 3437.986ms (3435.291ms without children)
+		CollectScriptTypesHashes: 0.061ms
+		ReloadNativeAssets: 0.655ms
+		UnloadImportedAssets: 0.322ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.060ms
+		ImportSchedulerStart: 0.618ms
+	PostProcessAllAssets: 59.606ms
+		MonoPostProcessAllAssets: 59.601ms
+			SyncVS.PostprocessSyncProject 15.611ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 10.776ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 9.470ms
+			AssetPostprocessor.OnPostprocessAllAssets 8.945ms
+			AssetChangedListener.OnPostprocessAllAssets 2.816ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.288ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 1.717ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.338ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 1.029ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 0.819ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.787ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.728ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.723ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.553ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.533ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.521ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.510ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.489ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.458ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.442ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.394ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.389ms
+			AssetEvents.OnPostprocessAllAssets 0.348ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.323ms
+			AssetProcessor.OnPostprocessAllAssets 0.293ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.273ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.251ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.232ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.218ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.218ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.200ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.198ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.194ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.168ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.140ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.128ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.638ms
+	UnloadStreamsBegin: 0.131ms
+	PersistCurrentRevisions: 0.191ms
+	GenerateScriptTypeHashes: 3.243ms
+	GenerateScriptTypeSerializationHashes: 7.856ms
+	Untracked: 1737.011ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            3.610 ms
+	Integration:            844.454 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.023 ms
+	Total Operation Time:   848.091 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Tag: Projectile is not defined.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.GameObject:CompareTag_Internal (string)
+UnityEngine.GameObject:CompareTag (string) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/GameObject.bindings.cs:345)
+UnityEngine.Component:CompareTag (string) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Component.bindings.cs:217)
+PlayerMovement:OnTriggerEnter2D (UnityEngine.Collider2D) (at Assets/PlayerMovement.cs:52)
+
+[/Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs line 23]
+
+2026-10-11 02:39:39.214 Unity[794:8174] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+2026-10-11 02:39:39.222 Unity[794:8174] CAMetalLayer ignoring invalid setDrawableSize width=0.000000 height=0.000000
+
+Asset Pipeline Refresh (id=5f56f2bc88c59495ea75d9f33bc27dc0): Total: 0.816 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=816 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=1141, non-scripts=1969
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	ApplyChangesToAssetFolders: 0.320ms
+	Scan: 806.289ms
+	Collect global state as custom dependencies: 0.363ms
+	GatherAllCurrentPrimaryImportResultRevisions: 5.268ms
+	UnloadStreamsBegin: 0.535ms
+	UnloadStreamsEnd: 0.107ms
+	Untracked: 1.946ms
+
+2026-10-11 02:40:18.588 Unity[794:8174] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x7f833f225d90 SDF, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used

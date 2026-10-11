@@ -17,6 +17,9 @@ public class TurretPool : MonoBehaviour
     public float warningDuration = 0.5f;
     public Color warningColor = Color.red;
 
+    [Header("Movement Settings")]
+    public float teleportInterval = 6f; // How often the turret jumps to a new spot
+
     private List<GameObject> pool;
     private int currentProjectileIndex = 0; 
     
@@ -39,7 +42,9 @@ public class TurretPool : MonoBehaviour
             pool.Add(obj);
         }
 
+        // Start both the firing loop and the teleporting loop
         StartCoroutine(FireSequence());
+        StartCoroutine(TeleportSequence());
     }
 
     IEnumerator FireSequence()
@@ -61,6 +66,29 @@ public class TurretPool : MonoBehaviour
             {
                 spriteRenderer.color = originalColor;
             }
+        }
+    }
+
+    IEnumerator TeleportSequence()
+    {
+        while (true)
+        {
+            // Wait for the specified interval before moving
+            yield return new WaitForSeconds(teleportInterval);
+
+            // Teleport to a new random position inside the arena
+            float randomX = Random.Range(-7f, 7f);
+            float randomY = Random.Range(-4f, 4f);
+            transform.position = new Vector3(randomX, randomY, 0);
+
+            // Pick a new random firing direction to keep it unpredictable
+            float randomDirX = Random.Range(-1f, 1f);
+            float randomDirY = Random.Range(-1f, 1f);
+            
+            // Prevent a rare case where the vector is exactly (0,0)
+            if (randomDirX == 0 && randomDirY == 0) randomDirX = 1f;
+
+            fireDirection = new Vector2(randomDirX, randomDirY).normalized;
         }
     }
 
