@@ -96,7 +96,16 @@ public class TurretPool : MonoBehaviour
     {
         GameObject obj = pool[currentProjectileIndex];
         
+        // Move to turret before activating
         obj.transform.position = transform.position;
+        
+        // CLEAR THE TRAIL: Prevents the giant beam bug
+        TrailRenderer trail = obj.GetComponent<TrailRenderer>();
+        if (trail != null)
+        {
+            trail.Clear();
+        }
+
         obj.SetActive(true);
         
         Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
