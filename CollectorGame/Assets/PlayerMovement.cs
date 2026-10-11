@@ -47,20 +47,37 @@ public class PlayerMovement : MonoBehaviour
     }
 
     // This handles the physics collision for collecting the item
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Hazard"))
-    {
-    // Reloads the current scene immediately
-    UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
-    }
-
-        // Checks if the object we bumped into has the tag "Coin"
-        if (other.gameObject.CompareTag("Coin"))
+    // This handles the physics collision for collecting the item
+        void OnTriggerEnter2D(Collider2D other)
         {
-            score++; // Increase the score by 1
-            scoreText.text = "Score: " + score; // Update the screen
-            Destroy(other.gameObject); // Destroy the collected coin
+            if (other.CompareTag("Hazard"))
+            {
+                // Reloads the current scene immediately
+                UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+            }
+
+            // Checks if the object we bumped into has the tag "Coin"
+            if (other.CompareTag("Coin"))
+            {
+                // Add points to the score
+                score += 10;
+                scoreText.text = "Score: " + score;
+
+                // Pick a random X and Y inside your specific walls.
+                float randomX = UnityEngine.Random.Range(-7f, 7f);
+                float randomY = UnityEngine.Random.Range(-4f, 4f);
+
+                // Teleport the coin to the new spot instantly!
+                other.transform.position = new UnityEngine.Vector3(randomX, randomY, 0);
+            }
+
+            // Checks if we reached the exit (Requirement 7 & Scene Management)
+            if (other.CompareTag("Goal"))
+            {
+                UnityEngine.PlayerPrefs.SetInt("SavedScore", score);
+                UnityEngine.PlayerPrefs.Save();
+                UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+            
         }
     }
 }
