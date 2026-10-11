@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,51 +11,76 @@ public class TurretPool : MonoBehaviour
     [Header("Firing Settings")]
     public float fireRate = 2f;
     public float projectileSpeed = 5f;
-    public Vector2 fireDirection = Vector2.left; // Shoots left by default
+    public Vector2 fireDirection = Vector2.left;
+
+    [Header("Warning Settings")]
+    public float warningDuration = 0.5f;
+    public Color warningColor = Color.red;
 
     private List<GameObject> pool;
-    private float nextFireTime;
+    private int currentProjectileIndex = 0; 
+    
+    private SpriteRenderer spriteRenderer;
+    private Color originalColor;
 
     void Start()
     {
-        // 1. Create the pool of projectiles (Satisfies Rubric Requirement 4)
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        if (spriteRenderer != null)
+        {
+            originalColor = spriteRenderer.color;
+        }
+
         pool = new List<GameObject>();
         for (int i = 0; i < poolSize; i++)
         {
             GameObject obj = Instantiate(projectilePrefab);
-            obj.SetActive(false); // Hide them until needed
+            obj.SetActive(false); 
             pool.Add(obj);
         }
+
+        StartCoroutine(FireSequence());
     }
 
-    void Update()
+    IEnumerator FireSequence()
     {
-        // 2. Check if it is time to fire
-        if (Time.time >= nextFireTime)
+        while (true)
         {
+            yield return new WaitForSeconds(fireRate - warningDuration);
+
+            if (spriteRenderer != null)
+            {
+                spriteRenderer.color = warningColor;
+            }
+
+            yield return new WaitForSeconds(warningDuration);
+
             FireProjectile();
-            nextFireTime = Time.time + fireRate;
+
+            if (spriteRenderer != null)
+            {
+                spriteRenderer.color = originalColor;
+            }
         }
     }
 
     void FireProjectile()
     {
-        // 3. Find a hidden projectile and fire it (Reusing objects)
-        foreach (GameObject obj in pool)
+        GameObject obj = pool[currentProjectileIndex];
+        
+        obj.transform.position = transform.position;
+        obj.SetActive(true);
+        
+        Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
+        if (rb != null)
         {
-            if (!obj.activeInHierarchy)
-            {
-                obj.transform.position = transform.position;
-                obj.SetActive(true);
-                
-                Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
-                if (rb != null)
-                {
-                    rb.linearVelocity = fireDirection * projectileSpeed; 
-                }
-                
-                return; // Stop searching once we fire one
-            }
+            rb.linearVelocity = fireDirection * projectileSpeed; 
+        }
+
+        currentProjectileIndex++;
+        if (currentProjectileIndex >= pool.Count)
+        {
+            currentProjectileIndex = 0;
         }
     }
 }

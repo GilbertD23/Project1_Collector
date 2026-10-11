@@ -1,83 +1,58 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
+using UnityEngine.SceneManagement; // Added for restarting the level
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 5f;
-    [SerializeField] private InputActionReference moveAction; 
-    
-    // Moved inside the class, plus added an integer to track the actual number
-    public TextMeshProUGUI scoreText;
-    private int score = 0;
+    public float moveSpeed = 5f;
+    public InputActionReference moveAction;
+    public TMP_Text scoreText;
 
     private Rigidbody2D rb;
-    private Vector2 moveInput;
+    private int score = 0;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        // Ensure the text starts at 0 when the game begins
-        scoreText.text = "Score: " + score; 
     }
 
     void Update()
     {
-        // Safe hardware check before reading input
-        if (Keyboard.current == null && Gamepad.current == null) return;
-
-        // Read the Vector2 value from the Input Actions Asset
-        moveInput = moveAction.action.ReadValue<Vector2>();
-    }
-
-    void FixedUpdate()
-    {
-        // Apply velocity directly to the Rigidbody
+        Vector2 moveInput = moveAction.action.ReadValue<Vector2>();
         rb.linearVelocity = moveInput * moveSpeed;
     }
 
-    void OnEnable()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        moveAction.action.Enable();
-    }
-
-    void OnDisable()
-    {
-        moveAction.action.Disable();
-    }
-
-    // This handles the physics collision for collecting the item
-    // This handles the physics collision for collecting the item
-        void OnTriggerEnter2D(Collider2D other)
+        if (other.CompareTag("Coin"))
         {
-            if (other.CompareTag("Hazard"))
+            score += 50;
+            if (scoreText != null)
             {
-                // Reloads the current scene immediately
-                UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
-            }
-
-            // Checks if the object we bumped into has the tag "Coin"
-            if (other.CompareTag("Coin"))
-            {
-                // Add points to the score
-                score += 10;
                 scoreText.text = "Score: " + score;
+            }
+            
+            moveSpeed += 0.5f; 
 
-                // Pick a random X and Y inside your specific walls.
-                float randomX = UnityEngine.Random.Range(-7f, 7f);
-                float randomY = UnityEngine.Random.Range(-4f, 4f);
-
-                // Teleport the coin to the new spot instantly!
-                other.transform.position = new UnityEngine.Vector3(randomX, randomY, 0);
+            if (score % 150 == 0)
+            {
+                TurretSpawner spawner = Object.FindFirstObjectByType<TurretSpawner>();
+                if (spawner != null)
+                {
+                    spawner.SpawnNewTurret();
+                }
             }
 
-            // Checks if we reached the exit (Requirement 7 & Scene Management)
-            if (other.CompareTag("Goal"))
-            {
-                UnityEngine.PlayerPrefs.SetInt("SavedScore", score);
-                UnityEngine.PlayerPrefs.Save();
-                UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
-            
+            float randomX = Random.Range(-7f, 7f);
+            float randomY = Random.Range(-4f, 4f);
+            other.transform.position = new Vector3(randomX, randomY, 0);
+        }
+        // NEW: Death condition
+        else if (other.CompareTag("Projectile"))
+        {
+            // Reload the current scene to restart the game
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }
