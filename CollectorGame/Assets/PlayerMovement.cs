@@ -49,6 +49,12 @@ public class PlayerMovement : MonoBehaviour
     // This handles the physics collision for collecting the item
     void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.CompareTag("Hazard"))
+    {
+    // Reloads the current scene immediately
+    UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+    }
+
         // Checks if the object we bumped into has the tag "Coin"
         if (other.gameObject.CompareTag("Coin"))
         {
