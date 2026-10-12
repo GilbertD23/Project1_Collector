@@ -26,13 +26,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5208162557719940105}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
   m_LocalPosition: {x: 4.77, y: 0.08, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
 --- !u!212 &4692453369272643092
 SpriteRenderer:
   serializedVersion: 3
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: 775e5579da9ed4ddc8e55f5df276a052, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: bb94ba857f475405eb94aafaff7cf951, type: 3}
   m_Color: {r: 0.627451, g: 0.1254902, b: 0.9411765, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -112,3 +112,4 @@ MonoBehaviour:
   fireDirection: {x: -1, y: 0}
   warningDuration: 0.5
   warningColor: {r: 1, g: 0, b: 0, a: 1}
+  teleportInterval: 6
