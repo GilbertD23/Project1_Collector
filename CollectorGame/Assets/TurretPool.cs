@@ -5,20 +5,20 @@ using UnityEngine;
 public class TurretPool : MonoBehaviour
 {
     [Header("Pool Settings")]
-    public GameObject projectilePrefab;
-    public int poolSize = 5;
+    [SerializeField] private GameObject projectilePrefab;
+    [SerializeField] private int poolSize = 5;
     
     [Header("Firing Settings")]
-    public float fireRate = 2f;
-    public float projectileSpeed = 5f;
+    [SerializeField] private float fireRate = 2f;
+    [SerializeField] private float projectileSpeed = 5f;
     public Vector2 fireDirection = Vector2.left;
 
     [Header("Warning Settings")]
-    public float warningDuration = 0.5f;
-    public Color warningColor = Color.red;
+    [SerializeField] private float warningDuration = 0.5f;
+    [SerializeField] private Color warningColor = Color.red;
 
     [Header("Movement Settings")]
-    public float teleportInterval = 6f; // How often the turret jumps to a new spot
+    [SerializeField] private float teleportInterval = 6f; // How often the turret jumps to a new spot
 
     private List<GameObject> pool;
     private int currentProjectileIndex = 0; 

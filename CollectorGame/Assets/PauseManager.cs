@@ -4,7 +4,7 @@ using UnityEngine.InputSystem; // Added for new Input System
 
 public class PauseManager : MonoBehaviour
 {
-    public GameObject pauseMenuUI;
+    [SerializeField] private GameObject pauseMenuUI;
 
     void Update()
     {

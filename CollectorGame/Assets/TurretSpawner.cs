@@ -3,8 +3,8 @@ using UnityEngine;
 public class TurretSpawner : MonoBehaviour
 {
     [Header("Spawner Settings")]
-    public GameObject turretPrefab;
-    public int maxTurrets = 4;
+    [SerializeField] private GameObject turretPrefab;
+    [SerializeField] private int maxTurrets = 4;
     
     private int currentTurretCount = 0;
 
